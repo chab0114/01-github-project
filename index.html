@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/regular.css" />
+    <link rel="stylesheet" href="./css/solid.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/weather-icons.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/main.js" type="module"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Weather or Not</h1>
+        <h2>Petro</h2>
+      </header>
+      <nav>
+        <form id="search-form">
+          <input type="search" id="search" placeholder="City Loading..." />
+          <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></button>
+        </form>
+        <p id="current-city"></p>
+      </nav>
+      <main>
+        <div class="weather-card">
+          <p>Search for a city to see the current weather.</p>
+        </div>
+
+        <section class="student-info">
+          <h2>About Me</h2>
+          
+          <img src="./img/petro-headshot2.jpg" alt="Professional image of Petro Chaban" style="width: 15rem; height: auto;" />
+
+          
+          <dl>
+            <dt>Student Number:</dt>
+            <dd>041035381</dd>
+            
+            <dt>Program:</dt>
+            <dd>Mobile Application Design & Development (MAD&D)</dd>
+            
+            <dt>Course:</dt>
+            <dd>MAD9013 - Cross-Platform App Development</dd>
+            
+            <dt>Interesting Fact:</dt>
+            <dd>I used to be a veterinary doctor before switching to software development!</dd>
+          </dl>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2023 Chicken Stuff Inc.</p>
+      </footer>
+    </div>
+  </body>
+</html>
